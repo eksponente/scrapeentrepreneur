@@ -1,0 +1,42 @@
+Build for One, Deploy to Many
+
+The mobile content applications sector presents entrepreneurs with an ever-
+widening target for fresh ideas. They need only to overcome the fragmented
+technology nature of the mobile industry itself.
+
+Devices such as the iPhone and the Droid have redefined mobile phone
+capabilities, but device formats and software operating systems and carrier
+delivery platforms are silos within silos, each requiring a single, usually
+small, usually cost-challenged application developer to reinvent the wheel
+every time it tries to land its app on a new device.
+
+The folks behind Tarsin, based near Reno, Nev., have been studying this
+problem long before game-changing devices hit the scene.
+
+"The idea of designing once and delivering across a portfolio of devices
+hasn't existed," says John Osbourne, CEO and co-founder of
+[Tarsin](http://www.tarsin.com/). The company began life as a partner to
+Osbourne's former employer, Motorola. Device makers traditionally don't
+concern themselves with configuring apps to work on one another's devices
+(kind of encourages comparison shopping). Tarsin developed Capsa, a widget-
+style framework supporting apps to run on devices with different operating
+systems, screen presentations and functional menus. Capsa doesn't replace the
+software development kits designers use to create apps for specific phones; it
+helps them make sense of a world in which so many SDKs exist in the first
+place.
+
+"There's a thin client in the platform that helps an app recognize what kind
+of device it's delivering to, so you can have devices of different screen
+formats sharing the app, and it works on both of them," says Mitch Harbaugh,
+Tarsin vice president of marketing.
+
+The cost and labor required to create apps again and again for different
+phones likely has kept some developers out of the game. Tarsin's trying to
+open the gates for entrepreneurs flummoxed about how to achieve mass-market
+scalability.
+
+It also solves the same pressing problem for megawatt corporate brands.
+Hallmark, for instance, used Capsa to launch a mass-market mobile greeting
+app, Osbourne says. "Many big corporate brands have wanted to do a mobile app,
+have dipped a toe in the water and said, 'Shit, this is difficult.'"  
+

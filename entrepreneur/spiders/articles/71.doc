@@ -1,0 +1,189 @@
+Long Live Your Laptop Battery
+
+By Lincoln Spector  
+[](http://www.pcworld.com/)
+
+Laptop batteries are like people--eventually and inevitably, they die. And
+like people, they don't obey Moore's Law--You can't expect next year's
+batteries to last twice as long as this year's. Battery technology may improve
+a bit over time (after all, there's plenty of financial incentive for better
+batteries), but, while interesting possibilities may pop up, don't expect
+[major battery breakthroughs](http://www.pcworld.com/article/188624/lithiumion
+_battery_life_could_reach_20_years.html) in the near future.
+
+Although your battery will eventually die, proper care can put off the
+inevitable. Here's how to keep your laptop battery working for as long as
+possible. With luck, it could last until you need to replace that aging
+notebook (perhaps with a [laptop having a longer battery life](http://www.pcwo
+rld.com/article/166953/laptops_with_epic_battery_life_keep_you_working.html)).  
+I've also included a few tips on keeping the battery going longer between
+charges, so you can work longer without AC power.
+
+**Don't Run It Down to Empty**  
+Squeezing every drop of juice out of a lithium ion battery (the type used in
+today's laptops) strains and weakens it. Doing this once or twice won't kill
+the battery, but the cumulative effect of frequently emptying your battery
+will shorten its lifespan.
+
+(There's actually an exception to this rule--a circumstance where you should
+run down the battery all the way. I'll get to that later.)
+
+The good news: You probably can't run down the battery, anyway--at least not
+without going to a lot of trouble to do so. Most modern laptops are designed
+to shut down before the battery is empty.
+
+In fact, Vista and Windows 7 come with a setting for just this purpose. To see
+it, click Start, type power, and select Power Options. Click any one of the
+Change plan settings links, then the Change advanced power settings link. In
+the resulting dialog box, scroll down to and expand the Battery option. Then
+expand Critical battery level. The setting will probably be about 5 percent,
+which is a good place to leave it.
+
+XP has no such native setting, although your laptop may have a vendor-supplied
+tool that does the same job.
+
+_Myth: You should never recharge your battery all the way.  
+_There's considerable controversy on this point, and in researching this
+article I interviewed experts both for and against. But I've come down on the
+side of recharging all the way. The advantages of leaving home with a fully-
+charged battery--you can use your PC longer without AC power--are worth the
+slight risk of doing damage.
+
+**Keep It Cool**  
+Heat breaks down the battery, and reduces its overall life.
+
+When you use your laptop, make sure the vents are unblocked. Never work with
+the laptop on pillows or cushions. If possible, put it on a raised stand that
+allows for plenty of airflow.
+
+Also, clean the vents every so often with a can of compressed air. You can buy
+this for a few dollars at any computer store. Be sure to follow the directions
+on the can, and do this only when the notebook is off.
+
+**Give It a Rest**  
+If you're going to be working exclusively on AC power for a week or more,
+remove the battery first.
+
+Otherwise, you'll be wearing out the battery--constantly charging and
+discharging it--at a time when you don't need to use it at all. You're also
+heating it up (see "Keep It Cool," above).
+
+You don't want it too empty when you take it out. An unused battery loses
+power over time, and you don't want all the power to drain away, so remove it
+when it's at least half-charged.
+
+Never remove the battery while the computer is on, or even in standby or sleep
+mode; doing so will crash your system and possibly damage your hardware. Even
+inserting a battery into a running laptop can damage the system. So only
+remove or reinsert the battery when the laptop is completely off or
+hibernating.
+
+If you've never removed your laptop's battery and don't know how, check your
+documentation. (If you don't have it, you can probably find it online.) The
+instructions generally involve turning the laptop upside-down and holding down
+a button while you slide out the battery.
+
+_Myth: Refrigerate your battery.  
+_Some people recommend you store it in the refrigerator, inside a plastic bag.
+While you should keep a battery cool, the last thing you want is a wet
+battery, and condensation is a real danger in the fridge. Instead, store it in
+a dry place at room temperature. A filing cabinet works fine.
+
+You don't want the battery to go too long without exercise or let it empty out
+entirely. If you go without the battery for more than two months, put it in
+the PC and use it for a few hours, then remove it again.
+
+Also, before you take the laptop on the road, reinsert the battery and let it
+charge for a few hours before unplugging the machine. Allow the battery time
+to get a full charge before you remove the AC power.
+
+**Heal a Sick Battery**  
+_Myth: You can rejuvenate a worn-out battery.  
+_This isn't, strictly speaking, the case. You can't make old lithium hold more
+electrons than it can currently manage.
+
+But if the battery is running out unexpectedly fast, or if your laptop is
+having trouble figuring out how much power it has left, you might be able to
+fix the battery's "gas gauge," so it at least gives a more accurate reading.
+
+If you suspect the battery can't tell if it's charged or not, run it through a
+couple of cycles. Drain it of all its power (yes, this is the exception to the
+"don't drain the battery" rule mentioned above), recharge it to 100 percent,
+and then repeat.
+
+But how do you drain the battery when Windows won't let you do just that?
+Don't bother with the settings described above. They're not safe (you might
+forget to change them back), they may not be getting an accurate reading, and
+they quite possibly won't let you set the critical battery level to 0 percent.
+(If they did, it would crash Windows.)
+
+Instead, unplug your AC power and keep your laptop running (you can work on it
+if you like) until it automatically hibernates. Then reboot your PC back and
+go directly to the system setup program.
+
+I can't tell you exactly how to get there; each computer is different. Turn on
+your PC and look for an onscreen message (one of the first you'll see) that
+says something like "Press the X key for setup." Immediately press the
+designated key.
+
+It may take a couple of times to get the timing right. If there isn't enough
+power to let it boot, plug in AC until you're at the setup program, then
+unplug it.
+
+Leave the notebook on until it shuts off. This can take some time (45 minutes
+on my laptop); setup uses a lot less power than Windows.
+
+Once the PC is off, plug in the AC power, then wait a few hours before
+rebooting to Windows and making sure you've got a full recharge.
+
+Repeat the process once or twice.
+
+With luck and proper care, your battery will still be useful when you're
+looking for a new laptop.
+
+**Longer Life Between Charges  
+**_Myth: Adding RAM saves battery life._  
+True, more RAM means less hard drive access, and the hard drive uses a lot of
+electricity. But RAM uses electricity as well, and unless you're doing a lot
+of multitasking (not a good idea when you're on battery power), more RAM won't
+reduce hard drive use.
+
+The tips above should lengthen the time before you need to replace your
+laptop's battery. But on a daily basis, we're far more concerned with another
+type of battery life: how long we can keep our laptop running without AC
+power. You may know most of the following tips already, but it never hurts to
+refresh (or recharge) your memory.
+
+  * **Dim your screen:** Your laptop's backlight requires a lot of juice. Keep it as dim as you can comfortably read it.  
+
+  * **Shut off unneeded hardware:** Turn off your Bluetooth, and if you're not using the internet, turn off your Wi-Fi receiver, as well. Don't use an external mouse or other device. And muting the PC's sound system not only saves power, it avoids annoying everyone else in the cafÃ©.  
+
+  * **Avoid multitasking:** Run as few programs as you can get away with. If possible, stick to the one application (word processor, browser, or whatever) you're currently using, plus your antivirus and firewall in the background.  
+  
+And if you're not on the internet, you don't need those two.  
+
+  * **Avoid multimedia:** Save chores like photo editing and watching old Daily Show videos for when you have AC power. And if you must listen to music, use your iPod (or similar device).  
+
+  * **Know when to sleep and when to hibernate:** You need to think about when you want to save power by sending your laptop into Standby or Sleep mode, and when you want to hibernate it.  
+  
+There's a difference. XP's Standby and Vista and Windows 7's Sleep modes keep
+your PC on, using some power, but less of it than in normal use. Hibernate
+saves the PC's state to the hard drive, then shuts it off entirely, so that no
+power is used.  
+  
+On the other hand, Windows takes much longer--sometimes minutes--to go into
+and come out of hibernation. And those are minutes that the battery is
+draining heavily and you can't work.  
+  
+XP's Standby mode isn't really all that efficient. If your laptop will be
+inactive for more than about half an hour, hibernate it. Otherwise, use
+Standby.  
+  
+But Vista and Windows 7 do a much better job with their Sleep mode. Don't
+bother hibernating your PC unless you think you're going to go more than two
+or three hours without using it.
+
+Juiced for more battery life tips? Check out our other [battery life
+tips](http://www.pcworld.com/article/161667/laptop_battery_power_tips.html) or
+post your favorites in the comments!
+

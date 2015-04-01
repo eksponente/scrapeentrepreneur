@@ -1,0 +1,68 @@
+How to Calculate Your Breakeven Point
+
+**Q:** I understand how a one-product company calculates its breakeven point, but how is the calculation done when you sell multiple products? My firm sells two products, chairs and bar stools, for $50 per unit. The variable costs are $25 for each chair and $20 for each bar stool. Fixed costs for the firm are $20,000 per month. If the sales mix is 1:1 (one chair sold for every bar stool sold), what is the breakeven point in dollars of sales and in units of chairs and bar stools?
+
+**A:** In a previous [article](/money/moneymanagement/financialanalysis/article50138.html), I described this simple formula for calculating the breakeven point: breakeven = fixed costs /gross margin percentage, where fixed costs are recurring monthly expenses that do not vary with sales (such as rent, salaries and so on) and gross margin percentage of a product means its profit divided by its price.
+
+That simple calculation assumed a one-product company; therefore, it was easy
+and straightforward to determine the gross margin of a particular product.
+However, the calculation gets a little more complex when you throw additional
+products into the mix. The answer to your question lies in the calculation for
+computing the gross margin for multiple products. The breakeven calculation
+itself does not change.
+
+Instead of using the simple gross margin percentage, you must compute the
+"weighted average" gross margin percentage, which is calculated as the sum of
+the gross margin percentage for each product multiplied by its percentage of
+sales. Returning to your example, the chair has a gross margin of 50 percent:
+(50-25) /50. The stool has a gross margin of 60 percent: (50-20) /50. Each
+product accounts for 50 percent of the unit sales of the firm (meaning a 1:1
+sales mix). Therefore, the weighted average gross margin is:
+
+  * Chair: 50% x 50% = 25%
+  * Stool: 60% x 50% = 30%
+  * Weighted average gross margin = 55% (25% + 30%)
+
+Then, you would use the weighted average percentage in the breakeven formula
+as follows: breakeven = $20,000 /.55 = $36,363. To calculate the unit sales of
+each product, take the breakeven sales, multiply by the product's sales mix,
+and then divide by its price as follows:
+
+  * Stools to sell = $36,363 x 50% /$50 = 363 stools
+  * Chairs to sell = $36,363 x 50% /$50 = 363 chairs
+**Do you regularly generate an income statement for your business? If not, now's a good time to start. [Click here](/startingabusiness/businessplans/article25762.html) for a rundown of what it should include. **
+
+**Leading experts offer financial management advice in _[Bigwig Briefs: Become a CFO--The Real World Intelligence to Become a CFO or to Become a Better CFO or Financial Professional_](http://www.amazon.com/exec/obidos/ASIN/1587620731/entrepreneurcom).**
+
+From the above example, we can see how changing the sales mix can affect the
+breakeven point. For example, if the above firm were to sell 70 percent stools
+and 30 percent chairs, the breakeven point would be reduced to $35,088 because
+the weighted average gross margin increased to 57 percent. Conversely, if the
+firm where to sell 30 percent stools and 70 percent chairs, the breakeven
+point would be increased to $37,736 because the weighted average gross margin
+decreased to 53 percent.
+
+Your goal as a business owner is to keep the breakeven point as low as
+possible. Product price, product costs, product volume and fixed cost all play
+a role in determining the breakeven point as well as the ultimate success of
+any business.
+
+_Ian Benoliel is the CEO of NumberCruncher.com Inc., a developer of budgeting,
+manufacturing and management software for entrepreneurial businesses.
+NumberCruncher combines its accounting and finance expertise with
+technological know-how to deliver software that is affordable and easy to use,
+yet sophisticated and powerful. More information on the NumberCruncher's
+products and services is available at
+[www.numbercruncher.com](http://www.numbercruncher.com). Ian has nearly two
+decades of business, accounting and financial consulting experience. He has
+advised corporations on business plans, financial projections and accounting
+computer systems._
+
+* * *
+
+The opinions expressed in this column are those of the author, not of
+Entrepreneur.com. All answers are intended to be general in nature, without
+regard to specific geographical areas or circumstances, and should only be
+relied upon after consulting an appropriate expert, such as an attorney or
+accountant.
+

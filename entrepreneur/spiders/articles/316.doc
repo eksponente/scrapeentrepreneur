@@ -1,0 +1,95 @@
+To Buy or Not to Buy?
+
+**Q:** How can I determine if purchasing a large piece of equipment for my business is worth the investment?
+
+**A:** Every day, individuals and businesses ask themselves that very question: Should they buy that piece of equipment, invest in a business or buy that stock? There are many factors that go into making investment decisions. One of them should be an analysis of the ROI.
+
+Simply stated, ROI is the cash that you get back (or save) by purchasing _any_
+asset (including equipment and stock). You would compare ROI of an asset with
+the ROI of alternative assets. If the ROI of an asset does not meet your
+criteria, perhaps you are paying too much for the asset or you should not
+invest.
+
+The logic behind the ROI calculation is: Will the annual (after-tax) cash flow
+generated over the life of the asset, plus the after-tax proceeds on the
+future sale of the asset, be enough to justify the cash outlay necessary to
+purchase the asset today?
+
+You should note a couple of things in the above statement. First, the analysis
+should be done on an after-tax basis. This is because income tax must be paid
+on income and any gains from sales; therefore, to ignore taxes would result in
+an overstatement in the ROI. The second thing is that we must account for the
+fact that income and gains will occur in the future. A dollar today is worth
+less than a dollar will be worth five years from now--because of inflation and
+because of the opportunity cost of buying one investment and not the other.
+
+**Expressed in a formula, ROI is calculated as follows:**  
+ROI = -PV + ? (Y x (1 - t)) / (1+r)n \+ ? D x t / (1+r)n \+ FV/(1+r)n \- ((FV
+- NBV) x t )/ (1+r)n
+
+**Where:**  
+PV = Purchase price of the asset  
+Y = Income (or savings) over the life of the asset  
+D = Annual depreciation  
+r = Risk-free rate  
+t = Tax rate  
+n = The life of the asset (or hold period) in years  
+FV = Future Value of the asset when sold (or salvage value)  
+NBV = Book value of the asset after depreciation
+
+If you divide the ROI by the PV, you will get the ROI percentage.
+
+The ROI formula can be broken down into four parts. The first part, -PV,
+represents the cash outflow for the asset. The second part, ? (Y x (1 - t)) /
+(1+r)n, reads as the sum of after-tax income generated from the asset over the
+life of the asset. You will note that the annual income is divided, a number
+that grows every year to take into account the time value of money. The third
+part, + ? D x t / (1+r)n, reads as the sum of depreciation tax benefit
+received over the life of the asset. The fourth part, FV/(1+r)n,, reads as the
+present of the cash received at the end of the asset's life. The last part, -
+((FV - NBV) x t)/ (1+r)n, reads as the present value of the taxes when the
+asset is sold.
+
+  |  |  Next Step  
+---  
+If you're not ready to make a big purchase, [equipment
+leasing](/magazine/entrepreneur/2001/january/35652.html) may be the way to go.
+
+Whether you need to score a bank loan, attract angel investors, go public or
+obtain venture capital, you'll find answers to all your business-financing
+questions in _[Financing Your Small Business_](http://www.smallbizbooks.com
+/cgi-bin/ncommerce3/ExecMacro/newmedia/product.d2w/report?prrfnbr=126672).  
+  
+  
+  
+You can see that a fair amount of guesswork goes into this calculation (such
+as future income, salvage value and so on). When determining these variables,
+it is better to err on the side of conservatism.
+
+There can be numerous variations to the above formula. For instance, in the
+example above, the company may finance the purchase, which would change the
+calculation.
+
+Finally, ROI is only one factor in making investment decisions. Other factors
+include available financing and operating factors such as available labor and
+facilities.
+
+_Ian Benoliel is the CEO of NumberCruncher.com Inc., a developer of budgeting,
+manufacturing and management software for entrepreneurial businesses.
+NumberCruncher combines its accounting and finance expertise with
+technological know-how to deliver software that is affordable and easy to use,
+yet sophisticated and powerful. More information on the NumberCruncher's
+products and services is available at
+[www.numbercruncher.com](http://www.numbercruncher.com). Ian has nearly two
+decades of business, accounting and financial consulting experience. He has
+advised corporations on business plans, financial projections and accounting
+computer systems._
+
+* * *
+
+The opinions expressed in this column are those of the author, not of
+Entrepreneur.com. All answers are intended to be general in nature, without
+regard to specific geographical areas or circumstances, and should only be
+relied upon after consulting an appropriate expert, such as an attorney or
+accountant.
+
