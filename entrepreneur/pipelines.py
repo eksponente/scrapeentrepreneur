@@ -6,16 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import codecs
 import html2text
-    # topic = scrapy.Field()
-    # heading = scrapy.Field()
-    # date = scrapy.Field()
-    # number = scrapy.Field()
-    # url = scrapy.Field()
-    # body = scrapy.Field()
-    # workbook = scrapy.Field()
-    # sheet = scrapy.Field()
-    # author = scrapy.Field()
-    # directory = scrapy.Field()
+
 
 class EntrepreneurPipeline(object):
     def process_item(self, item, spider):
