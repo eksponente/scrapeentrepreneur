@@ -45,7 +45,7 @@ class ArticleSpider(scrapy.Spider):
 		sheet.write(0, 1, 'Category')
 		sheet.write(0, 2, 'Date')
 		sheet.write(0, 3, 'Writer')
-		sheet.write(0, 4, 'Filename')
+		sheet.write(0, 4, 'Filename') 
 		sheet.write(0, 5, 'URL')
 
 		for i in range(8):
@@ -57,7 +57,7 @@ class ArticleSpider(scrapy.Spider):
 			yield request
 
 
-	def scrap_pages(self, response):
+	def scrap_pages(self, response): #scrape multiple pages inside a topic
 		linkai = response.xpath('//noscript/div/a/text()').extract()
 		sk = int(linkai[-2])
 		for i in range(sk):
@@ -68,7 +68,7 @@ class ArticleSpider(scrapy.Spider):
 			request.meta['sheet'] = response.meta['sheet']
 			yield request
 
-	def scrap_topic(self, response):
+	def scrap_topic(self, response): #load articles from a page
 		counter = 0
 		for sel in response.xpath('//a[contains(@href, "article")] | //a[contains(@href, "slideshow")]'):
 			s = sel.xpath('@href').extract()
@@ -81,7 +81,7 @@ class ArticleSpider(scrapy.Spider):
 			counter += 1
 			yield request
 
-	def scrap(self, response):
+	def scrap(self, response): #parse the article
 		item = ArticleItem()
 		item['sheet'] = response.meta['sheet']
 		text = response.xpath('//h1[contains(@itemprop, "headline")]/text()').extract()
