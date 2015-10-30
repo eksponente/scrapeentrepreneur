@@ -7,16 +7,6 @@ import os
 import xlwt
 import codecs
 
-globvar = 0
-workbook = xlwt.Workbook()
-sheet = workbook.add_sheet("Articles")
-sheet.write(0, 0, 'Article Title')
-sheet.write(0, 1, 'Category')
-sheet.write(0, 2, 'Date')
-sheet.write(0, 3, 'Writer')
-sheet.write(0, 4, 'Filename')
-sheet.write(0, 5, 'URL')
-
 class ArticleSpider(scrapy.Spider):
 	name = "article"
 	allowed_domains = ["entrepreneur.com"]
@@ -48,11 +38,22 @@ class ArticleSpider(scrapy.Spider):
 			"Entrepreneurs",
 			"Starting a Business"
 		]
+		
+		workbook = xlwt.Workbook()
+		sheet = workbook.add_sheet("Articles")
+		sheet.write(0, 0, 'Article Title')
+		sheet.write(0, 1, 'Category')
+		sheet.write(0, 2, 'Date')
+		sheet.write(0, 3, 'Writer')
+		sheet.write(0, 4, 'Filename')
+		sheet.write(0, 5, 'URL')
 
 		for i in range(8):
 			request = Request(topic_urls[i], callback=self.scrap_pages)
 			request.meta['filename'] = topics[i]
 			request.meta['directory'] = directory
+			request.meta['workbook'] = workbook
+			request.meta['sheet'] = sheet
 			yield request
 
 
@@ -63,22 +64,26 @@ class ArticleSpider(scrapy.Spider):
 			request = Request(response.url + "/" + str(i+1) , callback=self.scrap_topic)
 			request.meta['filename'] = response.meta['filename']
 			request.meta['directory'] = response.meta['directory']
+			request.meta['workbook'] = response.meta['workbook']
+			request.meta['sheet'] = response.meta['sheet']
 			yield request
 
 	def scrap_topic(self, response):
+		counter = 0
 		for sel in response.xpath('//a[contains(@href, "article")] | //a[contains(@href, "slideshow")]'):
 			s = sel.xpath('@href').extract()
 			request = Request("http://www.entrepreneur.com" + s[0] , callback=self.scrap)
 			request.meta['filename'] = response.meta['filename']
 			request.meta['directory'] = response.meta['directory']
+			request.meta['workbook'] = response.meta['workbook']
+			request.meta['sheet'] = response.meta['sheet']
+			request.meta['counter'] = counter
+			counter += 1
 			yield request
 
 	def scrap(self, response):
 		item = ArticleItem()
-		global globvar
-		globvar = globvar + 1
-		global sheet
-		item['sheet'] = sheet
+		item['sheet'] = response.meta['sheet']
 		text = response.xpath('//h1[contains(@itemprop, "headline")]/text()').extract()
 		if text:
 			item['heading'] = text[0].strip()
@@ -90,7 +95,7 @@ class ArticleSpider(scrapy.Spider):
 			item['date'] = t[0].strip()
 		else:
 			item['date'] = ""
-		item['number'] = globvar
+		item['number'] = response.meta['counter']
 		item['url'] = response.url
 
 		text = response.xpath('//div[contains(@class, "content-block")]').extract()
@@ -100,7 +105,6 @@ class ArticleSpider(scrapy.Spider):
 			item['author'] = author[0].strip()
 		else:
 			item['author'] = ""
-		global workbook
-		item['workbook'] = workbook
+		item['workbook'] = response.meta['workbook']
 		item['directory'] = response.meta['directory']
 		return item
